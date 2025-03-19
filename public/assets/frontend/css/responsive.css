@@ -1,0 +1,545 @@
+/*	Laptop PC: 1200.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    /*--------------------------------------------------------------
+    # Index Page
+    --------------------------------------------------------------*/
+    .dropdown-menu .mega-content img{
+      height: 100%;
+      object-fit: cover;
+    }
+    .services .card img {
+      height: 260px;
+    }
+}
+
+/*	Tablet PC: 992px.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+/*--------------------------------------------------------------
+# Index Page
+--------------------------------------------------------------*/
+  .dropdown-menu .mega-content img{
+    height: 100%;
+    object-fit: cover;
+  }
+  #hero h1 {
+    font-size: 70px;
+  }
+  #explore h1 {
+    font-size: 70px;
+  }
+  .digital-economy {
+    height: auto;
+  }
+  #explore {
+    height: auto;
+  }
+  #pathfinder {
+    height: auto;
+  }
+  .digital-economy h1{
+    font-size: 60px;
+  }
+  /* Home Page Cards Img */
+  #story-blog-event .card img {
+    height: 220px;
+  }
+  #event .card img {
+    height: 220px;
+  }
+  #projects .card img {
+    height: 220px;
+  }
+  #products .card img {
+    height: 220px;
+  }
+  .services .card img {
+    height: 220px;
+  }
+  /* Blog, Event, News, Products, Stories */
+  .benps .benps-item:nth-child(even) {
+    top: 0px;
+  }
+}
+/*	Tablet Layout: 768px.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+/*--------------------------------------------------------------
+# Index Page
+--------------------------------------------------------------*/
+  .dropdown-menu .mega-content img{
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu-first {
+    padding-top: 30px;
+  }
+  #mg-menu ul li {
+    padding-top: 0px !important;
+  }
+  #hero h1 {
+    font-size: 55px;
+  }
+  .digital-economy {
+    height: auto;
+  }
+  .services .card img {
+    height: 235px;
+  }
+  .digital-economy h1{
+    font-size: 40px;
+  }
+  .up-box{
+    margin-left: -92px;
+  }
+  #explore {
+    height: auto;
+  }
+  #pathfinder {
+    height: auto;
+  }
+  #explore h1 {
+    font-size: 55px;
+  }
+  /* Home Page Cards Img */
+  #story-blog-event .card img {
+    height: 240px;
+  }
+  #event .card img {
+    height: 240px;
+  }
+  #projects .card img {
+    height: 240px;
+  }
+  #products .card img {
+    height: 240px;
+  }
+}
+
+/*	Wide Tablet Layout: 576.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Tablet Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Base Css */
+  p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  h1 {
+    font-size: 26px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 23px !important;
+  }
+  h4 {
+    font-size: 22px !important;
+  }
+  h5 {
+    font-size: 21px !important;
+  }
+  h6 {
+    font-size: 21px !important;
+  }
+  /*-----------------------------------------------------------
+  * Index Page Css
+  *------------------------------------------------------------*/
+  .menu-first {
+    padding-top: 30px;
+  }
+  #mg-menu ul li {
+    padding-top: 0px !important;
+  }
+  #page-banner {
+    height: 250px;
+  }
+  #page-banner h1 {
+    height: 250px;
+  }
+  .services .service-item:nth-child(even) {
+    top: 0px;
+  }
+  .services .card img {
+    height: 235px;
+  }
+  .digital-economy{
+    height: auto;
+  }
+  .digital-economy h1{
+    font-size: 40px;
+  }
+  .up-box{
+    margin-left: 0px;
+  }
+  .btn-get-started {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  #explore .play-btn {
+    height: 25px;
+    width: 25px;
+    font-size: 50px;
+  }
+  #event .card img {
+    height: auto;
+  }
+  #products .card img {
+    height: auto;
+  }
+  #pathfinder{
+    height: auto;
+  }
+  #explore {
+    height: auto;
+  }
+  #story-blog-event .card img {
+    height: auto;
+  }
+  #projects .card img {
+    height: auto;
+  }
+  /*  Blog, Event, News, Products, Stories */
+  .benps .card img{
+    height: auto !important;
+  }
+  .benps .benps-item:nth-child(even) {
+    top: 0px;
+  }
+  /*
+  Blog-Details, Event-Details, News-Details, Products-Details, Stories-Details
+  */
+  #item-details .description img{
+    width: 100% !important;
+    margin: 15px 0px;
+  }
+}
+
+/*	Wide Mobile Layout: 431.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+  .mobile-pt-10 {
+    padding-top: 10px;
+  }
+  .mobile-pb-10 {
+    padding-bottom: 10px;
+  }
+  .mobile-pt-20 {
+    padding-top: 20px;
+  }
+  .mobile-pb-20 {
+    padding-bottom: 20px;
+  }
+  .mobile-mt-10 {
+    margin-top: 10px;
+  }
+  .mobile-mb-10 {
+    margin-bottom: 10px;
+  }
+  .mobile-mt-20 {
+    margin-top: 20px;
+  }
+  .mobile-mb-20 {
+    margin-bottom: 20px;
+  }
+  .mobile-py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile-my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h1 {
+    font-size: 24px !important;
+  }
+  h2 {
+    font-size: 23px !important;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 21px !important;
+  }
+  h5 {
+    font-size: 20px !important;
+  }
+  h6 {
+    font-size: 20px !important;
+  }
+  /* End Base Css */
+/*-----------------------------------------------------------
+* Index Page Css
+*------------------------------------------------------------*/
+  .menu-first {
+    padding-top: 30px;
+  }
+  #mg-menu ul li {
+    padding-top: 0px !important;
+  }
+  #page-banner {
+    height: auto;
+    padding: 30px 0px;
+  }
+  #page-banner h1 {
+    height: 200px;
+  }
+  .services .service-item:nth-child(even) {
+    top: 0px;
+  }
+  .services .card img {
+    height: 235px;
+  }
+  .digital-economy{
+    height: auto;
+  }
+  .digital-economy h1{
+    font-size: 40px;
+  }
+  .up-box{
+    margin-left: 0px;
+  }
+  .partner-item {
+    height: 100px;
+  }
+  .partner-item img{
+    height: 85px;
+  }
+  .btn-get-started {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  #explore {
+    height: auto;
+  }
+  #explore .play-btn {
+    height: 25px;
+    width: 25px;
+    font-size: 50px;
+  }
+  #event .card img {
+    height: auto;
+  }
+  #pathfinder {
+    height: auto;
+  }
+  #awards .card img {
+    height: 60px;
+  }
+  /*  Blog, Event, News, Products, Stories */
+  .benps .card img{
+    height: auto !important;
+  }
+  .benps .benps-item:nth-child(even) {
+    top: 0px;
+  }
+  /*
+  Blog-Details, Event-Details, News-Details, Products-Details, Stories-Details
+  */
+  #item-details .item-thumbnail {
+    height: auto;
+  } 
+  #item-details .description img{
+    width: 100% !important;
+    margin: 15px 0px;
+  }
+}
+
+/*	Wide Mobile Layout: 360.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 310px) and (max-width: 449.98px) {
+  /* Base Css */
+  .mobile-pt-10 {
+    padding-top: 10px;
+  }
+  .mobile-pb-10 {
+    padding-bottom: 10px;
+  }
+  .mobile-pt-20 {
+    padding-top: 20px;
+  }
+  .mobile-pb-20 {
+    padding-bottom: 20px;
+  }
+  .mobile-mt-10 {
+    margin-top: 10px;
+  }
+  .mobile-mb-10 {
+    margin-bottom: 10px;
+  }
+  .mobile-mt-20 {
+    margin-top: 20px;
+  }
+  .mobile-mb-20 {
+    margin-bottom: 20px;
+  }
+  .mobile-py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile-my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 19px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 17px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  h6 {
+    font-size: 16px !important;
+  }
+  /* End Base Css */
+/*-----------------------------------------------------------
+* Index Page Css
+*------------------------------------------------------------*/
+  .menu-first {
+    padding-top: 30px;
+  }
+  #mg-menu ul li {
+    padding-top: 0px !important;
+  }
+  #hero .container {
+    padding-top: 0px;
+  }
+  #page-banner {
+    height: auto;
+    padding: 20px 0px;
+  }
+  #page-banner h1 {
+    height: 175px;
+  }
+  .services .service-item:nth-child(even) {
+    top: 0px;
+  }
+  .services .card img {
+    height: auto;
+  }
+  .digital-economy{
+    height: auto;
+  }
+  .digital-economy h1{
+    font-size: 40px;
+  }
+  .up-box{
+    margin-left: 0px;
+  }
+  .partner-item {
+    height: 100px;
+  }
+  .btn-get-started {
+    font-size: 13px;
+    padding: 8px 13px;
+  }
+  #explore .play-btn {
+    height: 25px;
+    width: 25px;
+    font-size: 45px;
+  }
+  #event .card img {
+    height: auto;
+  }
+  #explore{
+    height: auto;
+  }
+  #pathfinder {
+    height: auto;
+  }
+  #awards .card img {
+    height: 60px;
+  }
+  .contact .info .email, .contact .info .phone {
+    margin-top: 20px;
+  }
+  /*  Blog, Event, News, Products, Stories */
+  .benps .benps-item:nth-child(even) {
+    top: 0px;
+  }
+  /*
+  Blog-Details, Event-Details, News-Details, Products-Details, Stories-Details
+  */
+  #item-details .item-thumbnail {
+    height: auto;
+  } 
+  #recent-blog .card {
+    height: auto;
+  }
+  #item-details .description img{
+    width: 100% !important;
+    margin: 15px 0px;
+  }
+}

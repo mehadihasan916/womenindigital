@@ -1,0 +1,12 @@
+.form-control:focus {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.col-item{
+  padding-bottom: 24px;
+}
+.card-title{
+  margin: 0;
+}

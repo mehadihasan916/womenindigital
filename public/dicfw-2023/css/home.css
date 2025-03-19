@@ -1,0 +1,60 @@
+.nav {
+    padding-left: 70px;
+}
+
+@media (max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 28px;
+    }
+    
+    .carousel-caption h2{
+        font-size: 16px;
+    }
+    
+    .funfacts h1{
+        font-size:16px;
+    }
+    
+       .funfacts h4{
+        font-size:12px;
+    }
+    .address iframe{
+        height: 250px;
+        width: 250px;
+    } 
+   .slider_image img{
+    height: 400px;
+    width: 900px;
+    
+}
+  
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+    
+    
+    
+
+    
+}
+
+.box_image{
+    width: 300px;
+    height: 300px;
+}
+
+    
+@media (min-width: 769px){
+    .slide_2 h1{
+        display: none;
+        
+    }
+    
+    .slide_2 h2{
+        display: none;
+    }
+}

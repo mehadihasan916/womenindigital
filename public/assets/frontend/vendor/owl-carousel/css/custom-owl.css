@@ -1,0 +1,117 @@
+/* owl_theam */
+#owl_theam{
+    padding-bottom: 60px;
+}
+#owl_theam img{
+    object-fit: cover;
+}
+#owl_theam .card{
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 10px;
+    height: 225px;
+}
+#owl_theam .owl_wrap .owl-nav{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+#owl_theam .owl_wrap .owl-nav .owl-prev{
+    left: -38px;
+}
+#owl_theam .owl_wrap .owl-nav .owl-next{
+    right: -38px;
+}
+#owl_theam .owl_wrap .owl-nav button.owl-prev{
+    position: absolute;
+    display: block;
+    background: #ED1D24;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    font-size: 31px;
+    line-height: 20px;
+}
+#owl_theam .owl_wrap .owl-nav button.owl-next{
+    position: absolute;
+    display: block;
+    background: #ED1D24;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    font-size: 31px;
+    line-height: 20px;
+}
+#owl_theam .owl_wrap .owl-nav button span{
+    position: relative;
+    top: -3px;
+}
+#owl_theam .owl-dots{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+#owl_theam .owl-dots .owl-dot{
+    width: 10px;
+    height: 10px;
+    background: rgb(196, 196, 196);
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#owl_theam .owl-dots .active{
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 255, 255);
+}
+#owl_theam .owl_wrap .owl-dots{
+    display: none;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Details page Owl Css */
+    #owl_theam img {
+      height: 125px;
+    }
+    #owl_theam .card {
+      height: 255px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Details page Owl Css */
+    #owl_theam img {
+      height: 125px;
+    }
+    #owl_theam .card {
+      height: 255px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Details page Owl Css */
+    #owl_theam img {
+      height: 125px;
+    }
+    #owl_theam .card {
+      height: 250px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+    /* Details page Owl Css */
+    #owl_theam img {
+      height: 125px;
+    }
+    #owl_theam .card {
+      height: 250px;
+    }
+}
+@media only screen and (min-width: 310px) and (max-width: 449.98px) {
+  /* Details page Owl Css */
+  #owl_theam img {
+    height: 100px;
+  }
+  #owl_theam .card {
+    height: 210px;
+  }
+}
